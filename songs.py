@@ -26,8 +26,6 @@ f2 = open('urls', 'wb')
 
 for artist in artists:
     urls = search(artist, outputfilename, client_access_token)
-    #print(a)
-    #urls = map(lambda t: t[3], a)
     print(artist, len(urls))
 
     f = open('lyrics/' + artist, 'wb')
