@@ -34,6 +34,6 @@ We can now perform some tests on the frequency of the words using `"python3 text
 We can also call `"python3 wordclouds.py"` to generate word clouds for each artist. 
 
 ## Sentiment Analysis ##
-I analyzed the sentiment of the lyrics using NLTK's Vader Sentiment analyzer. This analyzer is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. You can read more about it [here](https://github.com/cjhutto/vaderSentiment). 
+I analyzed the sentiment of the lyrics using NLTK's Vader Sentiment analyzer. This analyzer is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. You can read more about it [here](https://github.com/cjhutto/vaderSentiment). We can run `"python3 sentiment.py"` to see the bar graph of the frequency of positive, neutral and negative words in the lyrics for each artist. 
 
 Challenges: I had some difficulty figuring out how to extract the lyrics from the Genius API.
