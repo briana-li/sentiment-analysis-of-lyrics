@@ -36,4 +36,5 @@ We can also call `"python3 wordclouds.py"` to generate word clouds for each arti
 ## Sentiment Analysis ##
 I analyzed the sentiment of the lyrics using NLTK's Vader Sentiment analyzer. This analyzer is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. You can read more about it [here](https://github.com/cjhutto/vaderSentiment). We can run `"python3 sentiment.py"` to see the bar graph of the frequency of positive, neutral and negative words in the lyrics for each artist. In my example, Eminem and My Chemical Romance seem to have the most negative words and Pharrell Williams and Frank Ocean had the most positive words. 
 
-Challenges: I had some difficulty figuring out how to extract the lyrics from the Genius API.
+## Challenges and Next Steps: ##
+I had some difficulty figuring out how to extract the lyrics from the Genius API. Finding the python wrapper on Github for extracting the lyrics was very helpful in this process. In the future, for analyzing sentiment, I might want to use a machine learning approach to look at previously labeled data to predict the sentiment of future lyrics. This might get a better prediction especially in a song where it generally is either a positive or negative song. 
