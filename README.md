@@ -16,7 +16,7 @@ I tried to use artists from various genres. They were the following:
 * Pharrell Williams (pop)
 * Tauren Wells (Christian pop)
 
-In order to run the program you must have the following packages installed: nltk, pandas, matplotlib, bs4, urllib and wordcloud
+In order to run the program you must have the following packages installed: nltk, pandas, matplotlib, bs4, lxml, urllib and wordcloud
 
 To run the program, you must get a client ID, client secret key, and a client access token from https://genius.com/api-clients
 
@@ -34,6 +34,6 @@ We can now perform some tests on the frequency of the words using `"python3 text
 We can also call `"python3 wordclouds.py"` to generate word clouds for each artist. 
 
 ## Sentiment Analysis ##
-I analyzed the sentiment of the lyrics using NLTK's Vader Sentiment analyzer. This analyzer is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. You can read more about it [here](https://github.com/cjhutto/vaderSentiment). We can run `"python3 sentiment.py"` to see the bar graph of the frequency of positive, neutral and negative words in the lyrics for each artist. 
+I analyzed the sentiment of the lyrics using NLTK's Vader Sentiment analyzer. This analyzer is sensitive to both polarity (positive/negative) and intensity (strength) of emotion. You can read more about it [here](https://github.com/cjhutto/vaderSentiment). We can run `"python3 sentiment.py"` to see the bar graph of the frequency of positive, neutral and negative words in the lyrics for each artist. In my example, Eminem and My Chemical Romance seem to have the most negative words and Pharrell Williams and Frank Ocean had the most positive words. 
 
 Challenges: I had some difficulty figuring out how to extract the lyrics from the Genius API.
