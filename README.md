@@ -22,4 +22,14 @@ To run the program, you must get a client ID, client secret key, and a client ac
 
 These codes are used in "credentials.ini" and "songs.py" 
 
+## Data Collection ##
+To collect the data, run 
+Markup :  `code("python3 songs.py")` 
+
+to collect the lyrics of the top 10 songs from the artists listed in the "config.py" file. This class uses the search function from "search.py" which is a [python wrapper] for getting the lyrics from the Genius API. It essentially can accept the name of an artist, and then return urls of the lyrics for songs by that artist. I then used BeautifulSoup to find the "lyrics" html tag from Genius.com. I also did some basic data cleaning to get rid of words like "Chorus" and "Verse 1" 
+
+## Analyze Text Using Wordclouds ##
+
+## Sentiment Analysis ##
+
 Challenges: I had some difficulty figuring out how to extract the lyrics from the Genius API.
