@@ -16,8 +16,8 @@ for artist in ["radiohead"]:
     f.close()
 
     print(all_words[:100])
-    print "-------------"
+    print("-------------")
     all_words = all_words.translate(translate_table)
     print(all_words[:100])
     tokens = word_tokenize(all_words)
-    print tokens
+    print(tokens)
