@@ -13,4 +13,3 @@ for artist in artists:
     word_cloud = WordCloud(width=1000, height=500).generate(all_words.lower())
     word_cloud.to_file('wordclouds/' + artist + ".png")
     image = word_cloud.to_image()
-

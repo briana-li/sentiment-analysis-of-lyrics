@@ -6,7 +6,7 @@ from nltk import word_tokenize
 artists = config.artists
 translate_table = dict((ord(char), None) for char in string.punctuation)
 
-for artist in ["radiohead"]:
+for artist in artists:
     f = open('lyrics/' + artist + "-cleaned", 'rb')
     all_words = ''
     for sentence in f.readlines():
