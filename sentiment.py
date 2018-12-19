@@ -30,6 +30,7 @@ for artist in artists:
     percent_negative = (num_negative / float(num_total)) * 100
     percent_neutral = (num_neutral / float(num_total)) * 100
     percent_positive = (num_positive / float(num_total)) * 100
+    print(artist, percent_negative, percent_neutral, percent_positive)
     df.loc[i] = (artist, percent_positive, percent_neutral, percent_negative)
     i+=1
 
